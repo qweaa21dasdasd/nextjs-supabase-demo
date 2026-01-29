@@ -58,8 +58,21 @@ export default async function Home() {
         </div>
       </div>
 
-      <div className="mt-12 text-center text-slate-400 text-sm">
+      <div className="mt-12 text-center text-slate-400 text-sm space-y-2">
         <p>Built with Next.js & Supabase</p>
+        <p>
+          <a
+            href="https://github.com/qweaa21dasdasd/nextjs-supabase-demo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-indigo-600 hover:text-indigo-500 font-medium transition-colors inline-flex items-center gap-1"
+          >
+            View on GitHub
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+          </a>
+        </p>
       </div>
     </div>
   )
